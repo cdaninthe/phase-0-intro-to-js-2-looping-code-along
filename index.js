@@ -1,4 +1,34 @@
 // Code your solutions in this file
+const messages = [];
+
+function writeCards(name, event){
+  for (let i =0; i<name.length; i++){
+    messages[i] = `Thank you, ${name[i]}, for the wonderful ${event} gift!`;
+  }
+  return messages;
+}
+
+function countDown(number){
+  if (number === Math.abs(number)){
+    while (number>=0){
+      console.log(number--);
+    }
+  }
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 const gifts = ["teddy bear", "drone", "doll"];
 
 function wrapGifts(gifts) {
@@ -26,4 +56,4 @@ function countDown(number){
     }
     
 };
-
+*/
